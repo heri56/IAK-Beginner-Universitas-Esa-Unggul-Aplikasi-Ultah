@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/tulisanAwal"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/tengah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <!--jjj-->
+    <!---->
+    <Button
+        android:id="@+id/buttonIni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tengah"
+        android:layout_centerInParent="true"
+        android:text="Tekan Aku"
+        android:textIsSelectable="true"/>
+
+</RelativeLayout>
